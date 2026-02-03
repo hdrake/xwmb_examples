@@ -1,0 +1,17 @@
+name: xwmb_examples
+channels:
+  - conda-forge
+dependencies:
+  - python==3.12
+  - netcdf4
+  - zarr
+  - xarray
+  - cftime
+  - scipy
+  - dask
+  - jupyterlab
+  - matplotlib
+  - pip
+  - pip:
+    - roms-tools
+    - xwmb==0.5.2
