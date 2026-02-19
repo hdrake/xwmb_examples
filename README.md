@@ -12,7 +12,7 @@ Download all netcdf files in [https://zenodo.org/records/18469910] and place the
 ### SOSE tutorial
 
 Download first the `march` netcdf file in [https://zenodo.org/records/18681726] and place it in the data/ directory.
-Optionally, you can also download the `january` dataset
+Optionally, you can also download the `january` dataset.
 
 ## Install xwmb
 
