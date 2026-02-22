@@ -224,8 +224,12 @@ salt: # finite-volume salt budget in units of kg(salt)/s
                   vertical_salinity_convergence: "DELTA_DFrI_SLT"
       surface_exchange_flux:
         var: null
-        product:
-          var: null
-          area: "rA"
-          g_to_kg: 0.001
-          surface_salt_flux: "SFLUX" # Already 3D-broadcasted (zero below surface layer)
+        sum:
+          var:
+          salt_flux:
+            var:
+            product:
+              var: null
+              area: "rA"
+              g_to_kg: 0.001
+              surface_salt_flux: "SFLUX" # Already 3D-broadcasted (zero below surface layer)
